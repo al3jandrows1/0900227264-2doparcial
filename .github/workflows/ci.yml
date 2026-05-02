@@ -19,7 +19,7 @@ jobs:
       - name: Configurar JDK
         uses: actions/setup-java@v4
         with:
-          java-version: '8'
+          java-version: '21'
           distribution: 'temurin'
 
       - name: Compilar con Maven
